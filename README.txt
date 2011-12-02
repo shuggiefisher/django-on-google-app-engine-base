@@ -1,4 +1,4 @@
-To recreate an replicatable environment for Salt-n-Sauce :
+To recreate an replicatable environment for Djago non-rel on google app engine :
 
 1. Download and install Google App Engine Python SDK
 
