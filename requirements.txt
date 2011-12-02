@@ -1,0 +1,11 @@
+closure==20110811
+distribute==0.6.14
+django-mediagenerator==1.10.4
+-e git://github.com/ipython/ipython.git@a461e27036ebb0f4a2b88f0afbedfcdd822644be#egg=ipython-0.10.2-py2.5-0.10.2
+mercurial==1.9.1
+yuicompressor==2.4.6.1
+-e hg+https://bitbucket.org/wkornewald/django-nonrel#egg=django
+-e hg+https://bitbucket.org/wkornewald/djangoappengine#egg=djangoappengine
+-e hg+https://bitbucket.org/wkornewald/djangotoolbox#egg=djangotoolbox
+-e hg+https://bitbucket.org/twanschik/django-autoload#egg=django-autoload
+-e hg+https://bitbucket.org/wkornewald/django-dbindexer#egg=django-dbindexer

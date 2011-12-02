@@ -1,0 +1,189 @@
+/* From bootstrap template : */
+/* Override some defaults */
+html, body {
+  background-color: #eee;
+}
+body {
+  padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+.container {
+  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+}
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+
+/* Styles you shouldn't keep as they are for displaying this base example only */
+.content .span10,
+.content .span4 {
+  min-height: 500px;
+}
+/* Give a quick and non-cross-browser friendly divider */
+.content .span4 {
+  margin-left: 0;
+  padding-left: 19px;
+  border-left: 1px solid #eee;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+/* RK's additions */
+
+a.connect_with_twitter_button {
+    background: url(../images/graphics/connect_146px.png) no-repeat 0 0;
+    width: 146px;
+    height: 23px;
+    display: block;
+    text-indent: -9999px;
+}
+
+a.centred_connect_with_twitter_button {
+    position: relative;
+    left: 50%;
+    margin-left: -73px;
+}
+
+a.connect_with_twitter_button:hover { background-position: 0 -23px; }
+
+a.connect_with_twitter_button:active { background-position: 0 -46px; }
+
+img#dropdown_profile_image {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    margin-right: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+span#fb_like_button {
+    margin-top: 9px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.chars_remaining {
+    position: absolute;
+    bottom: 1.95em;
+    right: 160px;
+}
+
+.on-top {
+    z-index: 12000;
+}
+
+.delete_post {
+    display: inline;
+}
+
+.edit_post_button, .delete_post_button {
+    vertical-align: text-bottom;
+}
+
+#loading_spinner {
+    visibility: hidden;
+    z-index: 13000;
+    background: #333;
+    color: white;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: -75px;
+    margin-left: -75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.post_title_heading {
+    margin-bottom: 20px;
+}
+
+.post_comments {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.post_author_and_date {
+    margin-top: -2.5em;
+    margin-bottom: 10px;
+}
+
+.blog_post {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    margin-right: 20px;
+}
+
+.comment_user_profile_image {
+    float: left;
+}
+
+.comment_quote {
+    margin-left: 58px;
+}
+
+.post_comments_blockquote {
+    overflow: auto;
+}
+
+.add_comment_button {
+    margin-bottom: 10px;
+    margin-left: 41%;
+}
+
+#modal-edit_post, #modal-new_post, #modal-new_comment {
+    width: 450px;
+}
+
+#modal-login {
+    width: 350px;
+}
+
+#new_post, #edit_post, #new_comment {
+    padding-right: 20px;
+}
+
+.twipsy {
+    z-index: 12000;
+}
+
+.page-header {
+    background: url(../images/photos/potato-paper-860x200px-web.jpg) no-repeat 0 0;
+    height: 169px;
+}
+
+#page_title_text {
+    margin-top: 50px;
+    font-size: 3.6em;
+    color: purple;
+}
